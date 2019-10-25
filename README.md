@@ -178,6 +178,8 @@ We use the release queue [label](https://github.com/bnb/good-first-issue/pulls?q
 
 Once a PR is ready to be released, a milestone will be added that correlates to the SemVer version it will be released in. Ideally this will _eventually_ be used for changelog tracking but for now it's just a good way to keep organized. To keep things tidy, once a new version has shipped the milestone will be closed out.
 
+
+
 ### Local Testing
 
 Prior to each release, whoever is releasing should be testing the release locally to ensure that the code is working as expected. This would include either running `npm i -g` or `npm link` in the PR branch and then testing whatever the PR is adding. Ensuring the experience isn't broken is vital.
@@ -194,6 +196,17 @@ good-first-issue node # test the Node.js project
 good-first-issue github # test the GitHub organization, `github`
 good-first-issue github/semantic # test the GitHub repo, `github/semantic`
 good-first-issue thisisntarealprojectorgithuborg
+```
+
+## Possible Dev setup 
+
+```
+#Recomendattion for this commit
+npm install ajv
+
+#default project
+npm intall standard
+npm install jest
 ```
 
 ## Contributing
