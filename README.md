@@ -205,7 +205,7 @@ good-first-issue thisisntarealprojectorgithuborg
 npm install ajv
 
 #default project
-npm intall standard
+npm install standard
 npm install jest
 ```
 
